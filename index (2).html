@@ -1,0 +1,188 @@
+
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="stylecss.css">
+    <link rel="stylesheet" href="stylecss.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+  <!-- Move to up bottom -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  
+  <!-- navigation menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">My_Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="linkdln.logo.png.png"><i class="fab fa-Linkdln"></i></a>
+        <a href="insta.image.png.png"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two"><span>I'm Akarshika</div>
+        <div class="text-three">Frontend Developer</div>
+        <div class="text-four">An Engineering Student.</div>
+      </div>
+      <div class="button">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="portfolio-image4.png.png" alt="Portfolio">
+        </div>
+        <div class="right">
+          <div class="topic">Designing Is My Passion</div>
+          <div class="button">
+            <p>Hi Everyone! I am Akarshika,a passanate girl,who like to explore her life with the changeing world(thats what i made up of). I m interseted to build a strong determination and even communicate with the people having positive approach . I am happy to join this new world of learning new skills and acknowledge myself as much i can. I'm 20 years old.
+                I have done my schooling 10th and 12th in Holy Cross School Ballia,Uttar Pradesh.I am currently doing B.tech from <b>Banasthali Vidyapith From jaipur</b>. I will be completeing my graduation in 2023 distance learning. A passionate and hard working programming enthusiast with strong analytical and problem sloving skills.I need the great  support and  guidance to achieve my goal in best way.       </p>
+            <button>Download Resume</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge</div>
+          <p><i>I love to communicate people with postive approach.I can present my ideas well-in person,in writing and through social media.I m quick learner and love to explore the world.
+          I'm working hard to sharpen my skills because i feel that the value of great ideas is lost if I can't present in a way that others can understand.</i></p>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">HTML</div>
+            <div class="per">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <div class="per">50%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Javascript</div>
+            <div class="per">50%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Bootstrap</div>
+            <div class="per">50%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">Web Development</div>
+          <p>I m working to became a good developer.I love to find and learn new things and to adapt in my life.Go from no-code to an reach in frontend developer ..is great achievement in my life.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="topic">Python For Data Science</div>
+          <p>using wide variety of data anaylsis and data science libaries</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Content writing</div>
+          <p>Writing for websites,white paper ,researche articles,Text Workers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8"></div>
+        <div class="contact-form text-center">
+          <div id="success"></div>
+          <form name="sentmessage" id="contactForm" novalidate="novalidate">
+            <div class="form-row">
+              <div class="control-group col-sm-6">
+                <input type="text" class="form-control p-4" id="name" placeholder="Your name" required="required" data-validation-required-message="enter your name">
+                <p class="help-block text-danger"></p>
+              </div>
+              <br>
+              <div class="control-group col-sm-6">
+                <input type="text" class="form-control p-4" id="email" placeholder="Your email" required="required" data-validation-required-message="enter your email">
+                <p class="help-block text-danger"></p>
+              </div>
+              <br>
+              <div class="control-group col-sm-6">
+                <input type="text" class="form-control p-4" id="subject" placeholder="Your subject" required="required" data-validation-required-message="enter your subject">
+                <p class="help-block text-danger"></p>
+              </div>
+              <br>
+              <div class="control-group col-sm-6">
+                <input type="text" class="form-control p-4" id="Message" placeholder="Send Message" required="required" data-validation-required-message="send message to me">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="button" type="text-align:center">
+               <button>Send Message</button>
+              </div>
+              <div class="button">
+                <button>Let's Chat</button>
+              </div>
+
+            </form>  
+          </div>
+          
+        </div>    
+      </div>    
+   </section>    
+    <script src="script.js"></script>
+  </body>
+</html>
+        
+        
+        
+          
+
